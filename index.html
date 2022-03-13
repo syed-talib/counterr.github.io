@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="counter.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+<div class="container">
+	
+<div class="mainbox">
+	
+<span class="count" id="cou">0</span><br><br>
+<button class="button" onclick="incr()">+</button>
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+var val=0;
+function incr(){
+val++;
+document.getElementById('cou').innerHTML=val;
+
+}
+
+</script>
+</body>
+</html>
